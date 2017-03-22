@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BackToTop-by strive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script src="zepto.min.js"></script>
+    <script src="backToTop.min.js"></script>
+    <style>
+        .backToTop{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+    <script>
+        $(function(){
+            $('.backToTop').backToTop({
+                type:'doubleTap',
+                duration:500,
+                target:100
+            })
+        });
+    </script>
+</head>
+<body style="height:3000px">
+welcome backToTop!!
+<div style="position: absolute; left: 0; top: 100px;">
+    这是是100的位置!
+</div>
+<input class="backToTop" type="button" value="回到顶部">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
