@@ -41,6 +41,10 @@ options
 git clone https://github.com/itstrive/backToTop.git
 ```
 
+```
+bower install tinyBack
+```
+
 #### Questions?
 
 If you have any questions, please contact me.
