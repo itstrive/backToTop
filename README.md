@@ -45,6 +45,10 @@ git clone https://github.com/itstrive/backToTop.git
 bower install tinyBack
 ```
 
+```
+npm install tiny-back -D
+```
+
 #### Questions?
 
 If you have any questions, please contact me.
@@ -52,4 +56,8 @@ If you have any questions, please contact me.
 #### LICENSE
 
 MIT
+
+#### npm address
+
+https://www.npmjs.com/package/tiny-back
 
